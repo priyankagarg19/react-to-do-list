@@ -1,0 +1,30 @@
+.newtasks{
+    display:flex;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+  margin: 15px auto;
+  width: 50%;
+  border: 1px solid #EFEBE2;
+  border-radius: 4px;
+ background-color: #EFEBE2;
+}
+.todo{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    text-align: left;
+}
+.taskName{
+    flex-grow: 1;
+}
+.trashbox{
+    opacity: 0;
+}
+.newtasks:hover .trashbox{
+    opacity: 1;
+}
+.circles{
+    margin-right: 40px;
+}
